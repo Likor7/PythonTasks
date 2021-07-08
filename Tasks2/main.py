@@ -7,7 +7,7 @@ def info_about_developer(d: Developer):
     d.write_code()
 
 
-def first_task():
+def tasks():
     d1 = JavaDeveloper("Jack", 4)
     d2 = PythonDeveloper("Carl", 10)
     d3 = RubyDeveloper("Nick", 1)
@@ -34,4 +34,4 @@ def first_task():
 
 
 if __name__ == "__main__":
-    first_task()
+    tasks()
