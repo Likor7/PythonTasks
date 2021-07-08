@@ -1,0 +1,23 @@
+Task #2.
+
+Указать в каком порядке будет происходить поиск атрибутов и методов в классе E если существует такая иерархия классов (Все классы нового стиля!!!):
+
+class A:
+    pass
+
+class B:
+    pass
+
+class C(B, A):
+    pass
+
+class D(C, A):
+    pass
+
+class E(D, B):
+    pass
+
+
+print(E.mro())
+
+Відповідь: [<class '__main__.E'>, <class '__main__.D'>, <class '__main__.C'>, <class '__main__.B'>, <class '__main__.A'>, <class 'object'>].
